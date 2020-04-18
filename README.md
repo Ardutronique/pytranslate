@@ -9,9 +9,9 @@ this is a python programmed text translator, it uses the *googletrans* python mo
 
     $ git clone git@github.com:Ardutronique/pytranslate.git
 
- ## 2. install the googletrans python module
+ ## 2. install python modules
  
-    $ sudo pip3 install googletrans
+    $ sudo pip3 install -r requirement.txt
 
  ## 3. Use the python translator
 	
