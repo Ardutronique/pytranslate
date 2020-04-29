@@ -1,7 +1,9 @@
 from googletrans import *
 import time
 
+
 translator = Translator()
+
 
 def translate():
 	#result = translator.translate(phrase, src='fr', dest='en')
@@ -12,16 +14,7 @@ def translate():
 	print(' ',translations.origin, '----->', translations.text)
 	print("...\n")
 
-
-restart = True 
-
-while restart:
-	translate()
-	time.sleep(1)
-
-
-
-
-
+if __name__ == "__main__":
 	
-
+		translate()
+		time.sleep(1)
